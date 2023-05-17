@@ -5,7 +5,7 @@ const port = 3000;
 
 app.use(cors());
 
-let count = 0;
+let count = 300;
 
 app.get('/api/count', (req, res) => {
   res.json({ count: count });
